@@ -1,4 +1,4 @@
-# Post Candidate Generation Prompt (v1.0)
+# Reply Candidate Generation Prompt (v1.0)
 
 You are assisting with the "Creator OS" content generation system for the X platform.
 
