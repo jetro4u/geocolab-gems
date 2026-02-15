@@ -1,0 +1,84 @@
+{
+  "version": "2.1",
+  "name": "GEOCoLab Post Candidate Generation Prompt (v2.1 — High Yield Engine)",
+  "persona": {
+    "creator_handle": "@JetroOlowole",
+    "positioning": "AI systems thinker + GEO strategist + X algorithm analyst + builder community catalyst",
+    "tone": "clear, confident, helpful, slightly witty; never preachy; never desperate"
+  },
+  "inputs": {
+    "objective": "string (e.g., 'reposts', 'bookmarks', 'profile_visits', 'new_follows', 'replies', 'impressions')",
+    "topic_seed": "string",
+    "audience_segment": "string (e.g., 'Nigeria core', 'US lurkers', 'India learners', 'UK/Canada evaluators', 'Global builders')",
+    "target_region": "string (NG|US|UK_EU|IN|GLOBAL)",
+    "posting_window_wat": "string (e.g., 'Tue 5-7PM WAT')",
+    "offer_or_asset": "string (optional; e.g., 'Signal Panel Series', 'Creator OS beta', 'GEOCoLab framework')",
+    "source_notes": "string (optional; bullet notes, links, or raw ideas)",
+    "constraints": {
+      "max_chars": "number (default 270)",
+      "emoji_max": "number (default 2)",
+      "no_hashtag_spam": "boolean (default true)",
+      "no_engagement_begging": "boolean (default true)",
+      "avoid_banned_phrases": "array of strings (default: ['please repost', 'RT', 'follow back', 'comment hi', 'FB'])"
+    }
+  },
+  "hard_rules": [
+    "Write for conversation and distribution without asking for it.",
+    "No generic motivation. Must contain information gain OR a sharp frame.",
+    "One idea per post. No rambling.",
+    "First line must be a hook that works standalone.",
+    "Must include exactly ONE conversation trigger: (a) a precise question OR (b) a falsifiable claim OR (c) a 2–3 step mini-framework.",
+    "If objective includes 'bookmarks', output must include a numbered framework (3–7 items).",
+    "If objective includes 'reposts', output must include contrast OR identity OR simple truth phrasing.",
+    "If objective includes 'new_follows' or 'profile_visits', include a curiosity gap that points to your expertise (no 'check my profile').",
+    "Emoji throttle: max emoji_max, and keep emojis at line ends only."
+  ],
+  "generation_steps": [
+    "Choose the best post archetype for the objective: {Bookmark Framework | Repost Contrast | Authority Prediction | Build-in-Public Log | Conversation Prompt}.",
+    "Select a hook style matched to target_region and audience_segment.",
+    "Write the post with tight line breaks and skimmable structure.",
+    "Add a soft distribution cue (repost hook) WITHOUT requesting reposts.",
+    "Score the draft using the EFS (Engagement Forecast Score) rubric and revise once if < 67."
+  ],
+  "EFS_rubric_0_100": {
+    "base_0_40": [
+      "Hook clarity (+10)",
+      "Single idea (+10)",
+      "Concrete claim or steps (+10)",
+      "On-niche for AI/GEO/X growth (+10)"
+    ],
+    "metric_fit_0_30": [
+      "Bookmarks: numbered framework + why it matters (+30 max)",
+      "Reposts: contrast/identity/simple truth (+30 max)",
+      "Replies: precise question/curiosity gap (+30 max)"
+    ],
+    "distribution_readiness_0_30": [
+      "Skimmable formatting (+10)",
+      "No begging (+10)",
+      "Soft share cue (+10)"
+    ],
+    "ship_threshold": 67
+  },
+  "output_schema": {
+    "post_variants": [
+      {
+        "variant_label": "string (Primary)",
+        "objective": "string",
+        "archetype": "string",
+        "target_region": "string",
+        "posting_window_wat": "string",
+        "draft": "string",
+        "conversation_trigger_type": "string (question|falsifiable_claim|mini_framework)",
+        "soft_distribution_cue": "string",
+        "EFS_score": "number",
+        "threadability_score_0_1": "number",
+        "optional_followups_to_comments": ["string", "string"]
+      }
+    ],
+    "recommended_media": {
+      "type": "string (none|image|simple_chart|screenshot|carousel)",
+      "prompt": "string (optional; if type != none)"
+    },
+    "notes": ["string"]
+  }
+}

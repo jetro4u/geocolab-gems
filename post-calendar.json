@@ -1,0 +1,132 @@
+{
+  "timezone": "WAT",
+  "week_start_date": "2026-02-16",
+  "calendar_type": "day-by-day (custom to your observed peak blocks)",
+  "rules_of_use": [
+    "Posts are scheduled on peak *impressions / follows* windows; reply sprints on peak *replies / likes* windows.",
+    "Keep reply sprints high-quality: 5–10 strong replies, not one-liners.",
+    "Optional US-touch slot is included when your data shows strong 12AM–4AM performance."
+  ],
+  "days": [
+    {
+      "day": "Mon",
+      "date": "2026-02-16",
+      "primary_post_slots_wat": [
+        { "time": "02:15", "goal": "impressions (Mo 2–3AM peak)", "post_type": "Authority insight / prediction" },
+        { "time": "13:00", "goal": "likes + reposts (Mo 1PM peak)", "post_type": "Repost-bait contrast" }
+      ],
+      "reply_sprints_wat": [
+        { "time_range": "03:00-06:00", "goal": "likes + replies peak (Mo 3–6AM)", "focus": "high-authority threads + builder discussions" },
+        { "time_range": "05:00-09:00", "goal": "replies peak (Mo 5–9AM)", "focus": "clarifiers + micro-framework replies" },
+        { "time_range": "12:00-13:00", "goal": "replies peak (Mo 12–1PM)", "focus": "conversation-starter replies (1 precise question)" }
+      ],
+      "conversion_watch": [
+        { "time": "07:00", "metric": "new_follows (Mo 7AM)", "action": "reply to comments fast; pin best comment" },
+        { "time": "19:00", "metric": "new_follows (Mo 7PM)", "action": "post or reply on best-performing thread of the day" }
+      ]
+    },
+    {
+      "day": "Tue",
+      "date": "2026-02-17",
+      "primary_post_slots_wat": [
+        { "time": "17:30", "goal": "impressions + replies (Tu 5–7PM peak)", "post_type": "Authority + conversation prompt" },
+        { "time": "19:30", "goal": "new_follows (Tu 7–10PM peak)", "post_type": "Profile-visit driver (curiosity gap)" }
+      ],
+      "reply_sprints_wat": [
+        { "time_range": "07:00-07:45", "goal": "replies peak (Tu 7AM)", "focus": "high-velocity threads" },
+        { "time_range": "17:00-19:00", "goal": "replies + impressions (Tu 5–7PM)", "focus": "authority add-ons to big accounts" }
+      ],
+      "conversion_watch": [
+        { "time_range": "09:00-11:00", "metric": "new_follows + profile visits", "action": "post 1 strong reply under a large account; keep it ultra skimmable" }
+      ],
+      "optional_us_touch": [
+        { "time": "00:30", "goal": "reposts (Tu 12AM peak)", "action": "1 premium reply on US-heavy thread" }
+      ]
+    },
+    {
+      "day": "Wed",
+      "date": "2026-02-18",
+      "primary_post_slots_wat": [
+        { "time": "14:15", "goal": "impressions (We 2–3PM peak)", "post_type": "Bookmark framework (3–7 steps)" },
+        { "time": "12:00", "goal": "likes/reposts/reposts (We 12PM peak)", "post_type": "Repost-bait contrast or mini-framework" }
+      ],
+      "reply_sprints_wat": [
+        { "time": "05:00-05:45", "goal": "replies peak (We 5AM)", "focus": "clarifiers + micro-framework replies" },
+        { "time_range": "11:00-12:30", "goal": "profile visits (We 11AM) + reposts (12PM)", "focus": "reply under large accounts; end with 1 precise question" }
+      ],
+      "conversion_watch": [
+        { "time_range": "12:00-18:00", "metric": "new_follows (We 12–6PM block)", "action": "respond quickly to comments on your 2–3PM post" }
+      ],
+      "optional_us_touch": [
+        { "time": "00:15", "goal": "likes (We 12AM peak)", "action": "1 premium reply or short post" }
+      ]
+    },
+    {
+      "day": "Thu",
+      "date": "2026-02-19",
+      "primary_post_slots_wat": [
+        { "time": "09:00", "goal": "impressions (Th 9AM peak)", "post_type": "Authority insight (single idea)"},
+        { "time": "18:00", "goal": "profile visits (Th 6PM peak)", "post_type": "Conversation prompt (1 precise question)" },
+        { "time": "23:00", "goal": "likes (Th 11PM peak)", "post_type": "Short repost-bait truth" }
+      ],
+      "reply_sprints_wat": [
+        { "time": "06:00-06:45", "goal": "replies + shares (Th 6AM)", "focus": "early thread velocity replies" },
+        { "time_range": "14:00-15:00", "goal": "replies (Th 2–3PM)", "focus": "build-in-public + AI/GEO clarifiers" }
+      ],
+      "conversion_watch": [
+        { "time": "14:00", "metric": "new_follows (Th 2PM)", "action": "drop 1 high-signal reply under a large account" }
+      ]
+    },
+    {
+      "day": "Fri",
+      "date": "2026-02-20",
+      "primary_post_slots_wat": [
+        { "time": "19:30", "goal": "impressions (Fr 7–10PM peak)", "post_type": "Repost-bait contrast (shareable)" },
+        { "time": "08:00", "goal": "likes (Fr 7AM/8AM peaks)", "post_type": "Quick authority tip (1 line + 1 hook)" }
+      ],
+      "reply_sprints_wat": [
+        { "time_range": "05:00-05:45", "goal": "replies peak (Fr 5AM)", "focus": "high-velocity threads" },
+        { "time_range": "10:00-10:45", "goal": "replies + new_follows (Fr 10AM)", "focus": "authority add-ons + precise question" },
+        { "time_range": "16:00-19:00", "goal": "replies peak (Fr 4–7PM)", "focus": "builder threads + AI/X algorithm threads" }
+      ],
+      "conversion_watch": [
+        { "time_range": "12:00-14:00", "metric": "new_follows (Fr 12–2PM block)", "action": "reply fast to any comment threads that start" }
+      ]
+    },
+    {
+      "day": "Sat",
+      "date": "2026-02-21",
+      "primary_post_slots_wat": [
+        { "time": "10:00", "goal": "profile visits (Sa 10AM peak)", "post_type": "Authority post with curiosity gap" },
+        { "time": "14:00", "goal": "impressions + likes (Sa 2PM peak)", "post_type": "Bookmark framework (3–7 steps)" },
+        { "time": "20:00", "goal": "likes + impressions (Sa 8PM peak)", "post_type": "Repost-bait contrast" }
+      ],
+      "reply_sprints_wat": [
+        { "time_range": "06:00-12:00", "goal": "replies (Sa 6AM–12PM)", "focus": "high-authority threads; keep replies skimmable" },
+        { "time_range": "14:00-18:00", "goal": "impressions (Sa 7AM–6PM discovery)", "focus": "reply to trending posts in your niche" },
+        { "time_range": "21:00-23:00", "goal": "reposts + profile visits (Sa 9PM/11PM peaks)", "focus": "reply under big accounts; end with one precise question" }
+      ],
+      "conversion_watch": [
+        { "time_range": "18:00-20:00", "metric": "new_follows (Sa 6–8PM)", "action": "post + respond to comments within 15–30 minutes" }
+      ]
+    },
+    {
+      "day": "Sun",
+      "date": "2026-02-22",
+      "primary_post_slots_wat": [
+        { "time": "09:30", "goal": "impressions (Su 9AM–12PM peak)", "post_type": "Weekly synthesis authority post" },
+        { "time": "20:00", "goal": "likes + new_follows + visits (Su 8PM peak)", "post_type": "Next-week teaser + conversation prompt" }
+      ],
+      "reply_sprints_wat": [
+        { "time_range": "07:00-08:30", "goal": "reposts + visits (Su 6–8AM / 7–8AM)", "focus": "early high-signal replies" },
+        { "time_range": "17:00-22:00", "goal": "replies + likes + visits (Su 5–10PM)", "focus": "profile-audit window: reply to comments + join big threads" }
+      ],
+      "conversion_watch": [
+        { "time_range": "17:00-22:00", "metric": "profile visits peak (Su 5–10PM)", "action": "ensure pinned post + bio match your current focus; reply quickly to high-quality comments" }
+      ],
+      "optional_us_touch": [
+        { "time": "23:00", "goal": "shares (Su 11PM peak)", "action": "1 short shareable contrast line" }
+      ]
+    }
+  ]
+}
