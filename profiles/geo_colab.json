@@ -1,0 +1,185 @@
+{
+  "identity": {
+    "userId": null,
+    "handle": "@geo_colab",
+    "displayName": "GEOCoLab",
+    "bio": "@geo_colab exists to help creators & businesses turn engagement into signal & signal into citations in AI-powered platforms using Generative Engine Optimization",
+    "verifiedStatus": true,
+    "location": "Nigeria",
+    "joinedDate": null,
+    "profileUrl": "https://x.com/geo_colab",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/2012259477844598785/tdx_h2-q.jpg",
+    "fetchedAt": "2026-02-10T12:55:00Z"
+  },
+  "graph": {
+    "followers": 584,
+    "following": 887,
+    "followerFollowingRatio": 0.6584
+  },
+  "content": {
+    "topics": [
+      "Generative Engine Optimization",
+      "AI Tools",
+      "Social Media Algorithms",
+      "Business Strategy",
+      "Tech Trends",
+      "Health Awareness",
+      "Content Creation",
+      "Supply Chain Management",
+      "Coding and Development",
+      "Enterprise AI"
+    ],
+    "interests": [
+      "Grok",
+      "ChatGPT",
+      "Gemini",
+      "Video Generation",
+      "X Algorithm",
+      "Shadowban Testing",
+      "Cancer Awareness",
+      "India-US Trade",
+      "Open-Source Frameworks",
+      "AI Agents",
+      "SEO",
+      "GEO"
+    ],
+    "postStyle": "mixed",
+    "commentTone": "mixed",
+    "topHashtags": [
+      "#EnterpriseAI",
+      "#AITrends",
+      "#WorldCancerDay",
+      "#CancerAwareness"
+    ]
+  },
+  "recentPosts": [
+    {
+      "postId": "2020701965815296132",
+      "createdAt": "2026-02-09T03:31:06Z",
+      "text": "What’s the oldest piece of tech you own?",
+      "engagement": {
+        "likes": 2,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "views": 6
+      }
+    },
+    {
+      "postId": "2020373817181274528",
+      "createdAt": "2026-02-08T05:47:09Z",
+      "text": "GM folks, is your posts reaching your audience? There is only one way to find out!\n\nHere is the trick, leave a comment on this post.\n\nIf your reply is hidden under probable spam I will tell you the next step.\n\nNext step is I will follow your account and see if your post appear in my For You feed, if it does, I will leave a comment, if you don't get a comment in 24 hours come back and leave a comment on it.\n\nPlease bookmark and repost this post for others benefits.",
+      "engagement": {
+        "likes": 4,
+        "replies": 1,
+        "reposts": 1,
+        "quotes": 1,
+        "views": 97
+      }
+    },
+    {
+      "postId": "2020059870972502509",
+      "createdAt": "2026-02-07T08:59:38Z",
+      "text": "You don't need a China-first supply chain.\n\nYou need a India-US corridor.\n\nToday's removal of the 25% duty isn't just a policy change—it's a global reset.\n\n🏛️ Old World: Centralized manufacturing. \n🌍 New World: Resilient, distributed, duty-free alliances.\n\nPositioning yourself here today determines your 2030 margins. 📈🇮🇳🇺🇸",
+      "engagement": {
+        "likes": 3,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "views": 6
+      }
+    },
+    {
+      "postId": "2019995367933170017",
+      "createdAt": "2026-02-07T04:43:20Z",
+      "text": "Who does it best? We are testing which of ChatGPT, Grok and Gemini can produce the best video for the Grok Imagine Super Bowl Video Ad contest.\n\nSo I pass the same prompt to the 3 platforms and behold what the outcome is.\n\nThe I asked Grok to review the 3 an regenerate a better prompt.\n\nTell me which of them you like most, and I will DM you the JSON prompt to recreate it.\n\nWho rock it best among the 3?\n\n@icreatelife",
+      "engagement": {
+        "likes": 3,
+        "replies": 1,
+        "reposts": 1,
+        "quotes": 0,
+        "views": 91
+      }
+    },
+    {
+      "postId": "2019754326348984390",
+      "createdAt": "2026-02-06T12:45:31Z",
+      "text": "Forget AI pilots that fizzle out.\n\nEnterprises are hitting 3x ROI on production AI—here's the open-source framework to make it yours.\n\nAs someone who's scaled AI in business, the shift is clear: From experiments to outcomes.\n\nCore framework:\n\n👉 Redesign Decisions: Embed AI in ops to eliminate lag—focus on automation and revenue ties.\n\n👉 Measure Impact: Track conversational platforms for real P&L wins, not just demos.\n\n👉 Scale Safely: Build for production with memory management and human oversight.\n\nThis isn't theory; it's what separates winners from watchers in 2026.\n\nBookmark if you're leading AI adoption. Thoughts? #EnterpriseAI #AITrends",
+      "engagement": {
+        "likes": 3,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "views": 25
+      }
+    },
+    {
+      "postId": "2019690528304988643",
+      "createdAt": "2026-02-06T08:32:00Z",
+      "text": "GEOCoLab offers Technical GEO Audit for enterprise marketing teams, saas companies, and digital publishers preparing for ai-first search, solving ai engines cannot reliably crawl, parse, or cite their content despite strong traditional seo by simulating real llm crawlers and delivering a citation-first technical remediation blueprint.",
+      "engagement": {
+        "likes": 2,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "views": 31
+      }
+    },
+    {
+      "postId": "2019281970715361389",
+      "createdAt": "2026-02-05T05:28:32Z",
+      "text": "If you’re lazy at coding 😴💻\n\nYou’ll be even lazier using AI to code 🤖\n\nAI doesn’t create discipline.\nIt multiplies whatever you bring 📈\n\nGM Mutuals",
+      "engagement": {
+        "likes": 3,
+        "replies": 1,
+        "reposts": 0,
+        "quotes": 0,
+        "views": 15
+      }
+    },
+    {
+      "postId": "2019082034228978153",
+      "createdAt": "2026-02-04T16:14:04Z",
+      "text": "RE: WORLD CANCER DAY\n\nAwareness is a passive metric. Action is a survival metric. On #WorldCancerDay, the algorithm will show you thousands of ribbons. But ribbons don’t fund research or schedule screenings.\n\n3 truths we usually ignore:\n\nEarly detection isn't just a \"tip\"—it’s the difference between a statistic and a story.\n\nSupport isn't a \"like\"—it’s showing up when the \"Awareness Day\" noise dies down.\n\nThe most powerful weapon against cancer isn't just medicine; it's the data we share today.\n\nDon't just post a hashtag. Change a behavior.\nThe 1-second challenge:\n\nIf you’ve been procrastinating on a health check or a call to a friend in the fight—drop a \"reply\" on what you plan to do next below.\n\nLet’s turn the noise into a momentum flywheel. 👇\n#WorldCancerDay #CancerAwareness",
+      "engagement": {
+        "likes": 2,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "views": 16
+      }
+    },
+    {
+      "postId": "2019004506592227695",
+      "createdAt": "2026-02-04T11:06:00Z",
+      "text": "In the kingdom of Social and Search Visibility...  \n\nSEO is the Queen   🤴\n\nGEO is the King  👑 \n\n AI is the King Maker  💆\n\nWhich ally holds the true power?",
+      "engagement": {
+        "likes": 2,
+        "replies": 1,
+        "reposts": 1,
+        "quotes": 0,
+        "views": 37
+      }
+    },
+    {
+      "postId": "2018972303082520662",
+      "createdAt": "2026-02-04T08:58:02Z",
+      "text": "AI agents automate drudgery.\n\nAI agents amplify human creativity.\n\nAI agents accelerate business growth.\n\nTime to integrate agents today.",
+      "engagement": {
+        "likes": 2,
+        "replies": 0,
+        "reposts": 0,
+        "quotes": 0,
+        "views": 4
+      }
+    }
+  ],
+  "recentAverages": {
+    "avgLikes": 2.6,
+    "avgReplies": 0.4,
+    "avgReposts": 0.3
+  },
+  "meta": {
+    "note": "Followers, following, joinedDate, location, verifiedStatus, and userId could not be fetched because browse_page is disabled for X.com URLs and the X tools did not provide these details."
+  }
+}
